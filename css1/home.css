@@ -1,0 +1,80 @@
+a {
+	transition: 0.9s all;
+}
+html, body {
+	scroll-behavior: smooth;
+}
+ul {
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:1px;
+	text-align:center;
+	padding-left:0px;
+	margin:0px;
+	font-family: verdana;
+	font-weight:bold;
+	position: center;
+	
+}
+.menu li{
+	list-style:none;
+	background:black;
+	padding:8px;
+	font-family: verdana;
+}
+.menu a{
+	text-decoration:none; 
+	color:white;
+	position: above;
+
+}
+.logo {
+	height:20vh;
+	background-image: url(../images/logo.jpg);
+	background-repeat:no-repeat;
+	
+	background-position:center;
+
+}
+.banner {
+	margin-top: 7px;
+	padding: 15px;
+	height:80vh;
+	background-image: url(../images/banner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	position: relative;
+	overflow: hidden;
+	
+	
+}
+.banner:hover {
+	margin-top: 7px;
+	padding: 15px;
+	height:80vh;
+	background-image: url(../images/brand.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	position: relative;
+	
+}
+.footer {
+	padding-left: 10px;
+	height:20vh;
+	background-image: url(../images/footer1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+h3 {
+	color: white;
+	font-family: verdana;
+	size: 20px;
+	text-align: center;
+	margin:0px;
+	background-color:black;
+	margin-top: 10px;
+
+}
